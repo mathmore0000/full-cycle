@@ -22,7 +22,7 @@ setTimeout(() => {
         console.log('connected as id ' + connection.threadId);
     });
     connection.query(CREATE_TABLE_QUERY);
-}, 5000);
+}, 8000);
 
 const CREATE_TABLE_QUERY = `
     CREATE TABLE IF NOT EXISTS people (

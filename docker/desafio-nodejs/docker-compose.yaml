@@ -2,10 +2,10 @@ version: '3'
 
 services:
   app: 
-    image: mathmore0000/fc-desafio-node-app:latest
-    # build: 
-    #   context: ./node
-    # image: desafio-fc-node-node
+    # image: mathmore0000/fc-desafio-node-app:latest
+    build: 
+      context: ./node
+    image: desafio-fc-node-node
     container_name: app
     networks:
       - desafio-node-network
@@ -13,10 +13,10 @@ services:
       - db
 
   nginx:
-    image: mathmore0000/fc-desafio-node-nginx:latest
-    # build: 
-    #   context: ./nginx
-    # image: desafio-fc-node-nginx
+    # image: mathmore0000/fc-desafio-node-nginx:latest
+    build: 
+      context: ./nginx
+    image: desafio-fc-node-nginx
 
     ports:
       - "8080:80"
