@@ -10,20 +10,6 @@ const config = {
 }
 
 const mysql = require('mysql2');
-let connection;
-setTimeout(() => {
-    const con = mysql.createConnection(config);
-    connection = con
-    connection.connect((err) => {
-        if (err) {
-            console.error('error connecting: ' + err.stack);
-            return;
-        }
-        console.log('connected as id ' + connection.threadId);
-    });
-    connection.query(CREATE_TABLE_QUERY);
-}, 8000);
-
 const CREATE_TABLE_QUERY = `
     CREATE TABLE IF NOT EXISTS people (
         id INT NOT NULL AUTO_INCREMENT,
@@ -36,6 +22,19 @@ const CREATE_TABLE_QUERY = `
 const CREATE_PEOPLE_QUERY = `
     INSERT INTO people (name) VALUES ('Matheus Moreira');
 `;
+
+
+let connection;
+    const con = mysql.createConnection(config);
+    connection = con
+    connection.connect((err) => {
+        if (err) {
+            console.error('error connecting: ' + err.stack);
+            return;
+        }
+        console.log('connected as id ' + connection.threadId);
+    });
+    connection.query(CREATE_TABLE_QUERY);
 
 const GET_PEOPLE_QUERY = `
     SELECT * FROM people;

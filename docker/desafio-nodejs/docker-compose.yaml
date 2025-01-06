@@ -1,38 +1,46 @@
-version: '3'
+  version: '3'
 
-services:
-  app: 
-    # image: mathmore0000/fc-desafio-node-app:latest
-    build: 
-      context: ./node
-    image: desafio-fc-node-node
-    container_name: app
-    networks:
-      - desafio-node-network
-    depends_on:
-      - db
+  services:
+    app: 
+      # image: mathmore0000/fc-desafio-node-app:latest
+      build: 
+        context: ./node
+      image: desafio-fc-node-node
+      container_name: app
+      networks:
+        - desafio-node-network
+      depends_on:
+        db:
+          condition: service_healthy
 
-  nginx:
-    # image: mathmore0000/fc-desafio-node-nginx:latest
-    build: 
-      context: ./nginx
-    image: desafio-fc-node-nginx
+    nginx:
+      # image: mathmore0000/fc-desafio-node-nginx:latest
+      build: 
+        context: ./nginx
+      image: desafio-fc-node-nginx
 
-    ports:
-      - "8080:80"
-    networks:
-      - desafio-node-network
+      ports:
+        - "8080:80"
+      networks:
+        - desafio-node-network
+      depends_on:
+        - app
 
-  db:
-    image: mysql:8.0
-    container_name: db
-    command: --default-authentication-plugin=mysql_native_password
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: desafio-fc
-    networks:
-      - desafio-node-network
+    db:
+      image: mysql:8.0
+      container_name: db
+      command: --default-authentication-plugin=mysql_native_password
+      environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: desafio-fc
+      networks:
+        - desafio-node-network
+      healthcheck:
+        test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p$${MYSQL_ROOT_PASSWORD}"]
+        interval: 2s
+        timeout: 5s
+        retries: 10
 
-networks:
-  desafio-node-network:
-    driver: bridge
+  networks:
+    desafio-node-network:
+      driver: bridge
