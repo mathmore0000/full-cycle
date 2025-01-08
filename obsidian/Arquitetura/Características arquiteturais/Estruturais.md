@@ -1,0 +1,8 @@
+- Configurável;
+- Extensibilidade;
+- Fácil instalação;
+- Reuso de components;
+- Internacionalização;
+- Fácil manutenção;
+- Portabilidade;
+- Fácil suporte.

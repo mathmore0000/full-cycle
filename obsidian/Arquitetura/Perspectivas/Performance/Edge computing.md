@@ -1,0 +1,1 @@
+Cache em um servidor antes do servidor principal (kubernetes/ec2), por exemplo no cdn da cloudflare. Usuário recebe os dados processados diretamente do cache.

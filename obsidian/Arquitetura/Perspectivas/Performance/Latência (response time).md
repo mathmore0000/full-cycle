@@ -1,0 +1,3 @@
+- Diminuindo a latência
+	- Normalmente medida em milissegundos
+	- É afetada pelo tempo de processamento da aplicação, rede e chamadas externas.

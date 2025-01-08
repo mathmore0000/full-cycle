@@ -1,0 +1,3 @@
+- Aumentando o throughput
+	- Quantidade de requisições
+	- Diretamente ligado a latência

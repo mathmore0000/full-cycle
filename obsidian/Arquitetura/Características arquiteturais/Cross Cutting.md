@@ -1,0 +1,7 @@
+- Acessibilidade;
+- Processo de retenção e recuperação de dados;
+- Autenticação e autorização;
+- Legal;
+- Privacidade;
+- Segurança;
+- Usabilidade.

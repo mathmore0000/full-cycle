@@ -1,0 +1,7 @@
+- Disponibilidade;
+- Recuperação de desastres;
+- [[Performance]];
+- Recuperação (backup);
+- Confiabilidade e segurança;
+- Robustez;
+- Escalabilidade.
