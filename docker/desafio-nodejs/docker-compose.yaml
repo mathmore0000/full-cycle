@@ -1,3 +1,4 @@
+# dev docker-compose
   version: '3'
 
   services:
@@ -12,6 +13,9 @@
       depends_on:
         db:
           condition: service_healthy
+      volumes:
+        - ./node:/app
+        - /app/node_modules
 
     nginx:
       # image: mathmore0000/fc-desafio-node-nginx:latest
@@ -40,7 +44,12 @@
         interval: 2s
         timeout: 5s
         retries: 10
+      volumes:
+        - mysql_data:/var/lib/mysql
 
   networks:
     desafio-node-network:
       driver: bridge
+  
+  volumes:
+    mysql_data:
