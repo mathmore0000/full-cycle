@@ -41,9 +41,9 @@
         - desafio-node-network
       healthcheck:
         test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-p$${MYSQL_ROOT_PASSWORD}"]
-        interval: 2s
-        timeout: 5s
-        retries: 10
+        interval: 5s
+        timeout: 10s
+        retries: 3
       volumes:
         - mysql_data:/var/lib/mysql
 

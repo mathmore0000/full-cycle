@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "93acce8abbe1c70d",
+        "id": "5df852e157c82ee6",
         "type": "tabs",
         "children": [
           {
-            "id": "4c6cd4fa7fd6cde2",
+            "id": "bbdbb62f495654ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitetura/Características arquiteturais.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Características arquiteturais"
+              "title": "New tab"
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arquitetura/Características arquiteturais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Características arquiteturais"
+              "title": "Backlinks"
             }
           },
           {
@@ -112,12 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Arquitetura/Características arquiteturais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Características arquiteturais"
+              "title": "Outgoing links"
             }
           },
           {
@@ -138,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Arquitetura/Características arquiteturais.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Características arquiteturais"
+              "title": "Outline"
             }
           }
         ]
@@ -162,6 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c6cd4fa7fd6cde2",
-  "lastOpenFiles": []
+  "active": "bbdbb62f495654ff",
+  "lastOpenFiles": [
+    "Arquitetura/Características arquiteturais/Operacionais.md",
+    "Arquitetura/Características arquiteturais.md"
+  ]
 }
