@@ -1,0 +1,2 @@
+- Evita perda de dados;
+- Entender com profundidade o message broker / sistema de stream.

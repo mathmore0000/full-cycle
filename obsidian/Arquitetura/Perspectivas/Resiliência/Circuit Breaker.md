@@ -1,0 +1,4 @@
+- Protege o sistema fazendo com que as requisições feitas para ele sejam negadas;
+- Circuito fechado = Requisições chegam normalmente;
+- Circuito aberto = Requisições não chegam ao sistema. Erro instantâneo ao client;
+- Meio aberto = Permite uma quantidade limitada de requisições para verificação se o sistema tem condições de voltar ao ar integralmente;

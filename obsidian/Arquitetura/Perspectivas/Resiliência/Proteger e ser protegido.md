@@ -1,0 +1,3 @@
+- Um sistema em uma arquitetura distribuída precisa adotar mecanismos de autopreservação para garantir ao máximo sua operação com qualidade;
+- Um sistema não pode ser "egoísta" ao ponto de realizar mais requisições em um sistema que está falhando;
+- Um sistema lento no ar muitas vezes é pior do que um sistema fora do ar. (Efeito dominó).

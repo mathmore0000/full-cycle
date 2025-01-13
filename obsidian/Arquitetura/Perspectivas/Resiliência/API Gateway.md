@@ -1,0 +1,2 @@
+- Garante que requisições "inapropriadas" cheguem até o sistema (Ex: usuário não autenticado);
+- Implementa políticas de Rate Limiting, Health Check, etc;

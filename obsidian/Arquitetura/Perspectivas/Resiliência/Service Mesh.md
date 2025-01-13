@@ -1,0 +1,4 @@
+- Controla o tráfego de rede (Monitorar, testar e administrar);
+- Evita implementações de proteção pelo próprio sistema;
+- mutual TLS;
+- Circuit breaker, retry, timeout, fault injection, etc

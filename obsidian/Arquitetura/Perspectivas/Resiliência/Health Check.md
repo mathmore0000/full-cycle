@@ -1,0 +1,3 @@
+- Sem sinais vitais, não é possível saber a "saúde" de um sistema;
+- Um sistema que não está saudável possui uma chance de se recuperar caso o tráfego pare de ser direcionado a ele temporariamente;
+- Health check de qualidade (não só um html 200).

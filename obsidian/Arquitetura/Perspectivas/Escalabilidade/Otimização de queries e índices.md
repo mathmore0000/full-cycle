@@ -1,0 +1,4 @@
+- Trabalhe com índices de forma consistente;
+- APM (Application Performance Monitoring) nas queries;
+- Explain nas queries;
+- CQRS (Command Query Responsibility Segregation).

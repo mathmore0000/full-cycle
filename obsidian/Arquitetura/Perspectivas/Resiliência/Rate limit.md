@@ -1,0 +1,2 @@
+- Protege o sistema baseado no que ele foi projetado para suportar;
+- Preferência programada por tipo de client.
