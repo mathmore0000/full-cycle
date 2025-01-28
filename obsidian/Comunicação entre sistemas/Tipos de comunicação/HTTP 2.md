@@ -1,0 +1,8 @@
+- Nome original era SPDY;
+- Lançado em 2015;
+- Dados trafegados em binário e não em texto como HTTP 1.1;
+- Utiliza a mesma conexão HTTP para enviar e receber dados do cliente e do servidor (Multiplex);
+- Server Push;
+- Headers são comprimidos;
+- Gasta menos recursos de rede;
+- Processo é mais veloz.
