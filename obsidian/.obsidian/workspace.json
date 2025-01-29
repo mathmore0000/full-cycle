@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comunicação entre sistemas/Tipos de comunicação/GraphQL.md",
+                "file": "Comunicação entre sistemas/Tipos de comunicação/gRPC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GraphQL"
+              "title": "gRPC"
             }
           }
         ]
@@ -160,14 +160,22 @@
   },
   "active": "9357042a2ba79e9e",
   "lastOpenFiles": [
-    "Dúvidas time.md",
     "Comunicação entre sistemas/Tipos de comunicação/GraphQL.md",
     "Comunicação entre sistemas/Tipos de comunicação/HTTP 2.md",
     "Comunicação entre sistemas/Tipos de comunicação/gRPC.md",
-    "Comunicação entre sistemas/Tipos de comunicação/REST.md",
     "Comunicação entre sistemas/Tipos de comunicação/Protocol Buffers.md",
-    "Pasted image 20250128204335.png",
+    "Comunicação entre sistemas/Tipos de comunicação/API Server streaming.md",
+    "Comunicação entre sistemas/Tipos de comunicação/API Bi directional streaming.md",
     "Comunicação entre sistemas/Tipos de comunicação.md",
+    "Comunicação entre sistemas/Tipos de comunicação/API Client streaming.md",
+    "Pasted image 20250129174447.png",
+    "Pasted image 20250129174414.png",
+    "Comunicação entre sistemas/Tipos de comunicação/API Unary.md",
+    "Pasted image 20250129174059.png",
+    "Pasted image 20250129173948.png",
+    "Dúvidas time.md",
+    "Comunicação entre sistemas/Tipos de comunicação/REST.md",
+    "Pasted image 20250128204335.png",
     "Comunicação entre sistemas/Tipos de comunicação/RPC.md",
     "Pasted image 20250128203743.png",
     "Comunicação entre sistemas/Tipos de comunicação/HAL.md",
@@ -178,13 +186,9 @@
     "Pasted image 20250114165846.png",
     "Comunicação entre sistemas/Tipos de comunicação",
     "Comunicação entre sistemas",
-    "Pasted image 20250113180549.png",
-    "Pasted image 20250113175321.png",
-    "Pasted image 20250113174809.png",
     "Arquitetura/Perspectivas/Resiliência/Garantias de entrega com Kafka.md",
     "Arquitetura/Perspectivas/Resiliência.md",
     "Arquitetura/Perspectivas/Resiliência/Garantia de entrega com retry.md",
-    "Pasted image 20250113174710.png",
     "Arquitetura/Perspectivas/Resiliência/Comunicação assíncrona.md",
     "Arquitetura/Perspectivas/Resiliência/Service Mesh.md",
     "Arquitetura/Perspectivas/Performance/Edge computing.md",
@@ -193,10 +197,6 @@
     "Arquitetura/Características arquiteturais/Operacionais.md",
     "Arquitetura/Características arquiteturais.md",
     "Arquitetura/Características arquiteturais/Cross Cutting.md",
-    "Arquitetura/Características arquiteturais/Estruturais.md",
-    "Arquitetura/Perspectivas/Escalabilidade/Otimização de queries e índices.md",
-    "Arquitetura/Perspectivas/Escalabilidade.md",
-    "Arquitetura/Perspectivas/Resiliência/API Gateway.md",
     "Arquitetura/Perspectivas/Resiliência",
     "Arquitetura/Perspectivas/Escalabilidade"
   ]
