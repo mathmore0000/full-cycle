@@ -29,5 +29,4 @@ gRPC:
 - Baixa latência;
 - Contrato definido (protofile .proto);
 - Design é livre;
-- Geração de código;
-- 
+- Geração de código.

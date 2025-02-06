@@ -2,4 +2,5 @@ Nem sempre precisamos escolher o mesmo tipo de comunicação para todos os proje
 
 - [[REST]];
 - [[GraphQL]];
-- [[gRPC]]
+- [[gRPC]];
+- [[Service discovery]].
