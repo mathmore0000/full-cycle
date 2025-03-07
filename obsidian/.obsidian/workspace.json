@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID Express/SOLID Express.md",
+                "file": "SOLID Express/SOLID Express/Dependency Inversion Principle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLID Express"
+              "title": "Dependency Inversion Principle"
             }
           },
           {
@@ -173,16 +173,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "905dc21ad2d09b62",
+  "active": "2160b67bb30a7017",
   "lastOpenFiles": [
-    "Untitled.md",
-    "SOLID Express/SOLID Express.md",
+    "Pasted image 20250307185005.png",
+    "Pasted image 20250307184904.png",
+    "Pasted image 20250307184741.png",
+    "SOLID Express/SOLID Express/Open Closed Principle.md",
     "SOLID Express/SOLID Express/Dependency Inversion Principle.md",
+    "Pasted image 20250307184215.png",
+    "Pasted image 20250307183712.png",
+    "Pasted image 20250307183745.png",
+    "SOLID Express/SOLID Express/Single Responsibility Principle.md",
+    "SOLID Express/SOLID Express.md",
+    "Untitled.md",
     "SOLID Express/SOLID Express/Interface Segregation Principle.md",
     "SOLID Express/SOLID Express/Liskov Substitution Principle.md",
     "Comunicação entre sistemas/Tipos de comunicação.md",
-    "SOLID Express/SOLID Express/Open Closed Principle.md",
-    "SOLID Express/SOLID Express/Single Responsibility Principle.md",
     "imagens/Pasted image 20250205201630.png",
     "SOLID Express/SOLID Express",
     "SOLID Express",
@@ -192,11 +198,6 @@
     "imagens/Pasted image 20250219105802.png",
     "imagens/Pasted image 20250205201407.png",
     "imagens/Pasted image 20250205201105.png",
-    "imagens/Pasted image 20250205200501.png",
-    "imagens/Pasted image 20250205200121.png",
-    "imagens/Pasted image 20250205195949.png",
-    "imagens/Pasted image 20250129174447.png",
-    "imagens/Pasted image 20250129174414.png",
     "Apresentação.md",
     "Comunicação entre sistemas/Tipos de comunicação/Health Check ativo.md",
     "Comunicação entre sistemas/Tipos de comunicação/Multi região & Multi cloud.md",
@@ -214,7 +215,6 @@
     "Comunicação entre sistemas/Tipos de comunicação/API Bi directional streaming.md",
     "Comunicação entre sistemas/Tipos de comunicação/API Client streaming.md",
     "Comunicação entre sistemas/Tipos de comunicação/API Unary.md",
-    "Dúvidas time.md",
     "Comunicação entre sistemas/Tipos de comunicação",
     "Comunicação entre sistemas",
     "Arquitetura/Perspectivas/Resiliência",
