@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b0734c843e684931",
+        "id": "580bbbdd914626cb",
         "type": "tabs",
         "children": [
           {
-            "id": "2160b67bb30a7017",
+            "id": "31c6c6749bcfc045",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID Express/SOLID Express/Interface Segregation Principle.md",
+                "file": "Domain Driven Design/Domain Driven Design/Context Mapping.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interface Segregation Principle"
-            }
-          },
-          {
-            "id": "a4ac02a7cc8ff537",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SOLID Express/SOLID Express/Open Closed Principle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Open Closed Principle"
+              "title": "Context Mapping"
             }
           }
         ]
@@ -173,26 +159,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2160b67bb30a7017",
+  "active": "31c6c6749bcfc045",
   "lastOpenFiles": [
-    "Pasted image 20250318102237.png",
-    "Pasted image 20250318102217.png",
-    "Pasted image 20250318102139.png",
-    "Pasted image 20250318102121.png",
+    "Pasted image 20250319152558.png",
+    "Domain Driven Design/Domain Driven Design.md",
+    "imagens/Pasted image 20250319150755.png",
+    "Domain Driven Design/Domain Driven Design/Bounded Contexts.md",
+    "Domain Driven Design/Domain Driven Design/Context Mapping.md",
+    "imagens/Pasted image 20250319152459.png",
+    "imagens/Pasted image 20250319151808.png",
+    "imagens/Pasted image 20250319151637.png",
+    "Domain Driven Design/Domain Driven Design/Contextos.md",
+    "Domain Driven Design/Domain Driven Design/Domínios e subdomínios.md",
+    "imagens/Pasted image 20250319141450.png",
+    "imagens/Pasted image 20250319140921.png",
+    "imagens/Pasted image 20250319140536.png",
+    "imagens/Pasted image 20250319132406.png",
+    "Domain Driven Design/Domain Driven Design",
+    "imagens/Pasted image 20250319132006.png",
+    "imagens/Pasted image 20250319112815.png",
+    "Domain Driven Design",
+    "SOLID Express/SOLID Express/Interface Segregation Principle.md",
     "SOLID Express/SOLID Express/Liskov Substitution Principle.md",
-    "Pasted image 20250318101547.png",
-    "Pasted image 20250318101517.png",
     "SOLID Express/SOLID Express/Dependency Inversion Principle.md",
-    "Pasted image 20250307185005.png",
-    "Pasted image 20250307184904.png",
-    "Pasted image 20250307184741.png",
     "SOLID Express/SOLID Express/Open Closed Principle.md",
-    "Pasted image 20250307184215.png",
-    "Pasted image 20250307183712.png",
     "SOLID Express/SOLID Express/Single Responsibility Principle.md",
     "SOLID Express/SOLID Express.md",
     "Untitled.md",
-    "SOLID Express/SOLID Express/Interface Segregation Principle.md",
     "Comunicação entre sistemas/Tipos de comunicação.md",
     "SOLID Express/SOLID Express",
     "SOLID Express",
@@ -210,11 +203,6 @@
     "Comunicação entre sistemas/Tipos de comunicação/gRPC.md",
     "Comunicação entre sistemas/Tipos de comunicação/GraphQL.md",
     "Comunicação entre sistemas/Tipos de comunicação/HTTP 2.md",
-    "Comunicação entre sistemas/Tipos de comunicação/Protocol Buffers.md",
-    "Comunicação entre sistemas/Tipos de comunicação/API Server streaming.md",
-    "Comunicação entre sistemas/Tipos de comunicação/API Bi directional streaming.md",
-    "Comunicação entre sistemas/Tipos de comunicação/API Client streaming.md",
-    "Comunicação entre sistemas/Tipos de comunicação/API Unary.md",
     "Comunicação entre sistemas/Tipos de comunicação",
     "Comunicação entre sistemas",
     "Arquitetura/Perspectivas/Resiliência",
