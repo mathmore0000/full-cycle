@@ -10,7 +10,7 @@ Quando?
 Como?
 	- Entender com profundidade o domínio e subdomínios da aplicação;
 	- Ter uma linguagem universal entre todos os envolvidos;
-	- Criar design tático para mapear e agregar entidades à objetos de valor da aplicação, bem como eventos de domínio.
+	- Criar design tático (com [[Elementos Táticos]]) para mapear e agregar entidades à objetos de valor da aplicação, bem como eventos de domínio.
 
 ![[Pasted image 20250319112815.png]]
 
