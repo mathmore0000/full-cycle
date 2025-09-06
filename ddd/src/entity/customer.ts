@@ -1,10 +1,10 @@
-import Address from './address';
+import { Address } from './address';
 
 class Customer {
-    _id: string;
-    _name: string;
-    _address!: Address;
-    _active: boolean = false;
+    private _id: string;
+    private _name: string;
+    private _address!: Address;
+    private _active: boolean = false;
     
     constructor(id: string, name: string) {
         this._id = id;
@@ -20,6 +20,14 @@ class Customer {
         if (this._name.length === 0) {
             throw new Error("Name is required");
         }
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    isActive(): boolean {
+        return this._active;
     }
 
     changeName (name: string) {
@@ -43,3 +51,5 @@ class Customer {
     }
 
 }
+
+export { Customer };

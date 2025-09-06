@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain Driven Design/Domain Driven Design.md",
+                "file": "Domain Driven Design/Domain Driven Design/Tático/Elementos Táticos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Domain Driven Design"
+              "title": "Elementos Táticos"
             }
           }
         ]
@@ -162,16 +162,18 @@
   },
   "active": "56e77d48f7c0d193",
   "lastOpenFiles": [
-    "Pasted image 20250331150236.png",
-    "Domain Driven Design/Domain Driven Design/Tático/Elementos Táticos.md",
     "Domain Driven Design/Domain Driven Design/Tático/Aggregates.md",
-    "imagens/Pasted image 20250331150236.png",
-    "imagens/Pasted image 20250328172731.png",
+    "Domain Driven Design/Domain Driven Design/Tático/Elementos Táticos.md",
     "Domain Driven Design/Domain Driven Design/Tático/Value Objects.md",
     "Domain Driven Design/Domain Driven Design/Tático/Entities.md",
+    "Domain Driven Design/Domain Driven Design.md",
+    "Domain Driven Design/Domain Driven Design/Contextos.md",
+    "Domain Driven Design/Domain Driven Design/Domínios e subdomínios.md",
+    "Pasted image 20250331150236.png",
+    "imagens/Pasted image 20250331150236.png",
+    "imagens/Pasted image 20250328172731.png",
     "imagens/Pasted image 20250328161750.png",
     "imagens/Pasted image 20250319152558.png",
-    "Domain Driven Design/Domain Driven Design.md",
     "Pasted image 20250328161236.png",
     "Domain Driven Design/Domain Driven Design/Tático",
     "Domain Driven Design/Domain Driven Design/Context Mapping.md",
@@ -180,9 +182,6 @@
     "imagens/Pasted image 20250319152459.png",
     "imagens/Pasted image 20250319151808.png",
     "imagens/Pasted image 20250319151637.png",
-    "Domain Driven Design/Domain Driven Design/Contextos.md",
-    "Domain Driven Design/Domain Driven Design/Domínios e subdomínios.md",
-    "imagens/Pasted image 20250319141450.png",
     "Domain Driven Design/Domain Driven Design",
     "Domain Driven Design",
     "SOLID Express/SOLID Express/Interface Segregation Principle.md",
